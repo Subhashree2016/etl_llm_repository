@@ -1,0 +1,22 @@
+{
+    "id": {
+        "type": "integer",
+        "constraints": []
+    },
+    "salesreasonid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "name": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "reasontype": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

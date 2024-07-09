@@ -1,0 +1,30 @@
+{
+    "SalesPersonID": {
+        "type": "integer",
+        "constraints": []
+    },
+    "FullName": {
+        "type": "text",
+        "constraints": []
+    },
+    "JobTitle": {
+        "type": "text",
+        "constraints": []
+    },
+    "SalesTerritory": {
+        "type": "text",
+        "constraints": []
+    },
+    "2012": {
+        "type": "numeric",
+        "constraints": []
+    },
+    "2013": {
+        "type": "numeric",
+        "constraints": []
+    },
+    "2014": {
+        "type": "numeric",
+        "constraints": []
+    }
+}

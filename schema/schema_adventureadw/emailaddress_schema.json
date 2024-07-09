@@ -1,0 +1,26 @@
+{
+    "businessentityid": {
+        "type": "integer",
+        "constraints": [
+            "PRIMARY KEY"
+        ]
+    },
+    "emailaddressid": {
+        "type": "integer",
+        "constraints": [
+            "PRIMARY KEY"
+        ]
+    },
+    "emailaddress": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "rowguid": {
+        "type": "uuid",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

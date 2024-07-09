@@ -1,0 +1,76 @@
+{
+    "businessentityid": {
+        "type": "integer",
+        "constraints": [
+            "PRIMARY KEY"
+        ]
+    },
+    "nationalidnumber": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "loginid": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "jobtitle": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "birthdate": {
+        "type": "date",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "maritalstatus": {
+        "type": "character",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "gender": {
+        "type": "character",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "hiredate": {
+        "type": "date",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "salariedflag": {
+        "type": "boolean",
+        "constraints": []
+    },
+    "vacationhours": {
+        "type": "smallint",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "sickleavehours": {
+        "type": "smallint",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "currentflag": {
+        "type": "boolean",
+        "constraints": []
+    },
+    "rowguid": {
+        "type": "uuid",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    },
+    "organizationnode": {
+        "type": "character varying",
+        "constraints": []
+    }
+}

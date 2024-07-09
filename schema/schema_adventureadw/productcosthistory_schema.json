@@ -1,0 +1,30 @@
+{
+    "productid": {
+        "type": "integer",
+        "constraints": [
+            "PRIMARY KEY"
+        ]
+    },
+    "startdate": {
+        "type": "timestamp without time zone",
+        "constraints": [
+            "CHECK, PRIMARY KEY"
+        ]
+    },
+    "enddate": {
+        "type": "timestamp without time zone",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "standardcost": {
+        "type": "numeric",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

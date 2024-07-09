@@ -1,0 +1,16 @@
+{
+    "businessentityid": {
+        "type": "integer",
+        "constraints": [
+            "PRIMARY KEY"
+        ]
+    },
+    "rowguid": {
+        "type": "uuid",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "productmodelid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "illustrationid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

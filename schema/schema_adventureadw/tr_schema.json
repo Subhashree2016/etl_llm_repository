@@ -1,0 +1,34 @@
+{
+    "id": {
+        "type": "integer",
+        "constraints": []
+    },
+    "salestaxrateid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "stateprovinceid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "taxtype": {
+        "type": "smallint",
+        "constraints": []
+    },
+    "taxrate": {
+        "type": "numeric",
+        "constraints": []
+    },
+    "name": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "rowguid": {
+        "type": "uuid",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

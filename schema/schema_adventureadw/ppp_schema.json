@@ -1,0 +1,18 @@
+{
+    "productid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "productphotoid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "primary": {
+        "type": "boolean",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "id": {
+        "type": "integer",
+        "constraints": []
+    },
+    "businessentityid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "territoryid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "startdate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    },
+    "enddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    },
+    "rowguid": {
+        "type": "uuid",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

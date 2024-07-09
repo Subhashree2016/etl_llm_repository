@@ -1,0 +1,2 @@
+epoch,train_loss,val_loss,val_accuracy_datatypes,val_precision_datatypes,val_recall_datatypes,val_f1_datatypes,val_accuracy_constraints,val_precision_constraints,val_recall_constraints,val_f1_constraints
+1,0.07909200532095773,0.1619894935025109,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0

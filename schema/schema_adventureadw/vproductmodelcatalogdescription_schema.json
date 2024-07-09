@@ -1,0 +1,102 @@
+{
+    "productmodelid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "name": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "Summary": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "manufacturer": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "copyright": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "producturl": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "warrantyperiod": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "warrantydescription": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "noofyears": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "maintenancedescription": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "wheel": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "saddle": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "pedal": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "bikeframe": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "crankset": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "pictureangle": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "picturesize": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "productphotoid": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "material": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "color": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "productline": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "style": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "riderexperience": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "rowguid": {
+        "type": "uuid",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

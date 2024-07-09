@@ -1,0 +1,28 @@
+{
+    "businessentityid": {
+        "type": "integer",
+        "constraints": [
+            "PRIMARY KEY"
+        ]
+    },
+    "quotadate": {
+        "type": "timestamp without time zone",
+        "constraints": [
+            "PRIMARY KEY"
+        ]
+    },
+    "salesquota": {
+        "type": "numeric",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "rowguid": {
+        "type": "uuid",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

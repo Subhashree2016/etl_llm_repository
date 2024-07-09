@@ -1,0 +1,38 @@
+{
+    "businessentityid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "name": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "addresstype": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "addressline1": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "addressline2": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "city": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "stateprovincename": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "postalcode": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "countryregionname": {
+        "type": "character varying",
+        "constraints": []
+    }
+}

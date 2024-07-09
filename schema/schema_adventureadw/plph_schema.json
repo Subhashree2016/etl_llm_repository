@@ -1,0 +1,26 @@
+{
+    "id": {
+        "type": "integer",
+        "constraints": []
+    },
+    "productid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "startdate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    },
+    "enddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    },
+    "listprice": {
+        "type": "numeric",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

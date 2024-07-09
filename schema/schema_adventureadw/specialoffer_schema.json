@@ -1,0 +1,58 @@
+{
+    "specialofferid": {
+        "type": "integer",
+        "constraints": [
+            "PRIMARY KEY"
+        ]
+    },
+    "description": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "discountpct": {
+        "type": "numeric",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "type": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "category": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "startdate": {
+        "type": "timestamp without time zone",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "enddate": {
+        "type": "timestamp without time zone",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "minqty": {
+        "type": "integer",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "maxqty": {
+        "type": "integer",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "rowguid": {
+        "type": "uuid",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

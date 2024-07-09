@@ -1,0 +1,26 @@
+{
+    "salespersonid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "fullname": {
+        "type": "text",
+        "constraints": []
+    },
+    "jobtitle": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "salesterritory": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "salestotal": {
+        "type": "numeric",
+        "constraints": []
+    },
+    "fiscalyear": {
+        "type": "numeric",
+        "constraints": []
+    }
+}

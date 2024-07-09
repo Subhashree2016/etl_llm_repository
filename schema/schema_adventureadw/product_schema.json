@@ -1,0 +1,126 @@
+{
+    "productid": {
+        "type": "integer",
+        "constraints": [
+            "PRIMARY KEY"
+        ]
+    },
+    "name": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "productnumber": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "makeflag": {
+        "type": "boolean",
+        "constraints": []
+    },
+    "finishedgoodsflag": {
+        "type": "boolean",
+        "constraints": []
+    },
+    "color": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "safetystocklevel": {
+        "type": "smallint",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "reorderpoint": {
+        "type": "smallint",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "standardcost": {
+        "type": "numeric",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "listprice": {
+        "type": "numeric",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "size": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "sizeunitmeasurecode": {
+        "type": "character",
+        "constraints": []
+    },
+    "weightunitmeasurecode": {
+        "type": "character",
+        "constraints": []
+    },
+    "weight": {
+        "type": "numeric",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "daystomanufacture": {
+        "type": "integer",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "productline": {
+        "type": "character",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "class": {
+        "type": "character",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "style": {
+        "type": "character",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "productsubcategoryid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "productmodelid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "sellstartdate": {
+        "type": "timestamp without time zone",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "sellenddate": {
+        "type": "timestamp without time zone",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "discontinueddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    },
+    "rowguid": {
+        "type": "uuid",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

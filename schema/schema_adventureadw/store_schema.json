@@ -1,0 +1,28 @@
+{
+    "businessentityid": {
+        "type": "integer",
+        "constraints": [
+            "PRIMARY KEY"
+        ]
+    },
+    "name": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "salespersonid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "demographics": {
+        "type": "xml",
+        "constraints": []
+    },
+    "rowguid": {
+        "type": "uuid",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

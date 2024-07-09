@@ -1,0 +1,42 @@
+{
+    "id": {
+        "type": "integer",
+        "constraints": []
+    },
+    "transactionid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "productid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "referenceorderid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "referenceorderlineid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "transactiondate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    },
+    "transactiontype": {
+        "type": "character",
+        "constraints": []
+    },
+    "quantity": {
+        "type": "integer",
+        "constraints": []
+    },
+    "actualcost": {
+        "type": "numeric",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

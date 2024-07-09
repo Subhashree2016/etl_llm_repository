@@ -1,0 +1,14 @@
+{
+    "countryregioncode": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "currencycode": {
+        "type": "character",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

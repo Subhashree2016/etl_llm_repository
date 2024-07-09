@@ -1,0 +1,46 @@
+{
+    "id": {
+        "type": "integer",
+        "constraints": []
+    },
+    "salesorderid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "salesorderdetailid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "carriertrackingnumber": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "orderqty": {
+        "type": "smallint",
+        "constraints": []
+    },
+    "productid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "specialofferid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "unitprice": {
+        "type": "numeric",
+        "constraints": []
+    },
+    "unitpricediscount": {
+        "type": "numeric",
+        "constraints": []
+    },
+    "rowguid": {
+        "type": "uuid",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

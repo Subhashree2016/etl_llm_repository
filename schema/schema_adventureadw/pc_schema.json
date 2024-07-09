@@ -1,0 +1,22 @@
+{
+    "id": {
+        "type": "integer",
+        "constraints": []
+    },
+    "productcategoryid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "name": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "rowguid": {
+        "type": "uuid",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

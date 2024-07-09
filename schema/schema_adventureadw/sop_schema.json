@@ -1,0 +1,22 @@
+{
+    "id": {
+        "type": "integer",
+        "constraints": []
+    },
+    "specialofferid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "productid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "rowguid": {
+        "type": "uuid",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "businessentityid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "name": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "contacttype": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "title": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "firstname": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "middlename": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "lastname": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "suffix": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "phonenumber": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "phonenumbertype": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "emailaddress": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "emailpromotion": {
+        "type": "integer",
+        "constraints": []
+    }
+}

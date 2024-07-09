@@ -1,0 +1,38 @@
+{
+    "id": {
+        "type": "integer",
+        "constraints": []
+    },
+    "productreviewid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "productid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "reviewername": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "reviewdate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    },
+    "emailaddress": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "rating": {
+        "type": "integer",
+        "constraints": []
+    },
+    "comments": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

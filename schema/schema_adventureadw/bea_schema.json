@@ -1,0 +1,26 @@
+{
+    "id": {
+        "type": "integer",
+        "constraints": []
+    },
+    "businessentityid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "addressid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "addresstypeid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "rowguid": {
+        "type": "uuid",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

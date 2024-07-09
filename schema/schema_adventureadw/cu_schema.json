@@ -1,0 +1,18 @@
+{
+    "id": {
+        "type": "character",
+        "constraints": []
+    },
+    "currencycode": {
+        "type": "character",
+        "constraints": []
+    },
+    "name": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

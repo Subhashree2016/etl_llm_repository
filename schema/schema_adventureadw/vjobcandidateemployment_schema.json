@@ -1,0 +1,46 @@
+{
+    "jobcandidateid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "Emp.StartDate": {
+        "type": "date",
+        "constraints": []
+    },
+    "Emp.EndDate": {
+        "type": "date",
+        "constraints": []
+    },
+    "Emp.OrgName": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "Emp.JobTitle": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "Emp.Responsibility": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "Emp.FunctionCategory": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "Emp.IndustryCategory": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "Emp.Loc.CountryRegion": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "Emp.Loc.State": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "Emp.Loc.City": {
+        "type": "character varying",
+        "constraints": []
+    }
+}

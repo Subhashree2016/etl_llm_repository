@@ -1,0 +1,46 @@
+{
+    "id": {
+        "type": "integer",
+        "constraints": []
+    },
+    "territoryid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "name": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "countryregioncode": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "group": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "salesytd": {
+        "type": "numeric",
+        "constraints": []
+    },
+    "saleslastyear": {
+        "type": "numeric",
+        "constraints": []
+    },
+    "costytd": {
+        "type": "numeric",
+        "constraints": []
+    },
+    "costlastyear": {
+        "type": "numeric",
+        "constraints": []
+    },
+    "rowguid": {
+        "type": "uuid",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

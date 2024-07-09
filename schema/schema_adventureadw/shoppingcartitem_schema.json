@@ -1,0 +1,30 @@
+{
+    "shoppingcartitemid": {
+        "type": "integer",
+        "constraints": [
+            "PRIMARY KEY"
+        ]
+    },
+    "shoppingcartid": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "quantity": {
+        "type": "integer",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "productid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "datecreated": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

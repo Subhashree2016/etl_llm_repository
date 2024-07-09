@@ -1,0 +1,64 @@
+{
+    "purchaseorderid": {
+        "type": "integer",
+        "constraints": [
+            "PRIMARY KEY"
+        ]
+    },
+    "revisionnumber": {
+        "type": "smallint",
+        "constraints": []
+    },
+    "status": {
+        "type": "smallint",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "employeeid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "vendorid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "shipmethodid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "orderdate": {
+        "type": "timestamp without time zone",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "shipdate": {
+        "type": "timestamp without time zone",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "subtotal": {
+        "type": "numeric",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "taxamt": {
+        "type": "numeric",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "freight": {
+        "type": "numeric",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

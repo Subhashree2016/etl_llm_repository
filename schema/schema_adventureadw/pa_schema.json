@@ -1,0 +1,26 @@
+{
+    "id": {
+        "type": "integer",
+        "constraints": []
+    },
+    "businessentityid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "passwordhash": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "passwordsalt": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "rowguid": {
+        "type": "uuid",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

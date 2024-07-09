@@ -1,0 +1,16 @@
+{
+    "unitmeasurecode": {
+        "type": "character",
+        "constraints": [
+            "PRIMARY KEY"
+        ]
+    },
+    "name": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

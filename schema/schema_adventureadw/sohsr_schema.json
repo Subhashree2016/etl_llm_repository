@@ -1,0 +1,14 @@
+{
+    "salesorderid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "salesreasonid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

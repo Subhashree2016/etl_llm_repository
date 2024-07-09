@@ -1,0 +1,36 @@
+{
+    "stateprovinceid": {
+        "type": "integer",
+        "constraints": [
+            "PRIMARY KEY"
+        ]
+    },
+    "stateprovincecode": {
+        "type": "character",
+        "constraints": []
+    },
+    "countryregioncode": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "isonlystateprovinceflag": {
+        "type": "boolean",
+        "constraints": []
+    },
+    "name": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "territoryid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "rowguid": {
+        "type": "uuid",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

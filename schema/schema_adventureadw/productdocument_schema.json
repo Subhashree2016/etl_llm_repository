@@ -1,0 +1,18 @@
+{
+    "productid": {
+        "type": "integer",
+        "constraints": [
+            "PRIMARY KEY"
+        ]
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    },
+    "documentnode": {
+        "type": "character varying",
+        "constraints": [
+            "PRIMARY KEY"
+        ]
+    }
+}

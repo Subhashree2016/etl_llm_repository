@@ -1,0 +1,18 @@
+{
+    "id": {
+        "type": "integer",
+        "constraints": []
+    },
+    "productid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    },
+    "documentnode": {
+        "type": "character varying",
+        "constraints": []
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "jobcandidateid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "businessentityid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "Name.Prefix": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "Name.First": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "Name.Middle": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "Name.Last": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "Name.Suffix": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "Skills": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "Addr.Type": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "Addr.Loc.CountryRegion": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "Addr.Loc.State": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "Addr.Loc.City": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "Addr.PostalCode": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "EMail": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "WebSite": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

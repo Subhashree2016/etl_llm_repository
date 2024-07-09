@@ -1,0 +1,30 @@
+{
+    "businessentityid": {
+        "type": "integer",
+        "constraints": [
+            "PRIMARY KEY"
+        ]
+    },
+    "ratechangedate": {
+        "type": "timestamp without time zone",
+        "constraints": [
+            "PRIMARY KEY"
+        ]
+    },
+    "rate": {
+        "type": "numeric",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "payfrequency": {
+        "type": "smallint",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

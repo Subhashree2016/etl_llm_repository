@@ -1,0 +1,34 @@
+{
+    "id": {
+        "type": "integer",
+        "constraints": []
+    },
+    "productid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "locationid": {
+        "type": "smallint",
+        "constraints": []
+    },
+    "shelf": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "bin": {
+        "type": "smallint",
+        "constraints": []
+    },
+    "quantity": {
+        "type": "smallint",
+        "constraints": []
+    },
+    "rowguid": {
+        "type": "uuid",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

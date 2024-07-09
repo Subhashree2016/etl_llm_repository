@@ -1,0 +1,18 @@
+{
+    "productmodelid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "productdescriptionid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "cultureid": {
+        "type": "character",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

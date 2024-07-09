@@ -1,0 +1,70 @@
+{
+    "businessentityid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "firstname": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "middlename": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "lastname": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "telephonenumber": {
+        "type": "xml",
+        "constraints": []
+    },
+    "telephonespecialinstructions": {
+        "type": "text",
+        "constraints": []
+    },
+    "street": {
+        "type": "xml",
+        "constraints": []
+    },
+    "city": {
+        "type": "xml",
+        "constraints": []
+    },
+    "stateprovince": {
+        "type": "xml",
+        "constraints": []
+    },
+    "postalcode": {
+        "type": "xml",
+        "constraints": []
+    },
+    "countryregion": {
+        "type": "xml",
+        "constraints": []
+    },
+    "homeaddressspecialinstructions": {
+        "type": "xml",
+        "constraints": []
+    },
+    "emailaddress": {
+        "type": "xml",
+        "constraints": []
+    },
+    "emailspecialinstructions": {
+        "type": "text",
+        "constraints": []
+    },
+    "emailtelephonenumber": {
+        "type": "xml",
+        "constraints": []
+    },
+    "rowguid": {
+        "type": "uuid",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

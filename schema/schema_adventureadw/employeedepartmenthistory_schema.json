@@ -1,0 +1,36 @@
+{
+    "businessentityid": {
+        "type": "integer",
+        "constraints": [
+            "PRIMARY KEY"
+        ]
+    },
+    "departmentid": {
+        "type": "smallint",
+        "constraints": [
+            "PRIMARY KEY"
+        ]
+    },
+    "shiftid": {
+        "type": "smallint",
+        "constraints": [
+            "PRIMARY KEY"
+        ]
+    },
+    "startdate": {
+        "type": "date",
+        "constraints": [
+            "CHECK, PRIMARY KEY"
+        ]
+    },
+    "enddate": {
+        "type": "date",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

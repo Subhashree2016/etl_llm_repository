@@ -1,0 +1,50 @@
+{
+    "businessentityid": {
+        "type": "integer",
+        "constraints": [
+            "PRIMARY KEY"
+        ]
+    },
+    "territoryid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "salesquota": {
+        "type": "numeric",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "bonus": {
+        "type": "numeric",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "commissionpct": {
+        "type": "numeric",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "salesytd": {
+        "type": "numeric",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "saleslastyear": {
+        "type": "numeric",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "rowguid": {
+        "type": "uuid",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

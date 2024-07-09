@@ -1,0 +1,32 @@
+{
+    "currencyrateid": {
+        "type": "integer",
+        "constraints": [
+            "PRIMARY KEY"
+        ]
+    },
+    "currencyratedate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    },
+    "fromcurrencycode": {
+        "type": "character",
+        "constraints": []
+    },
+    "tocurrencycode": {
+        "type": "character",
+        "constraints": []
+    },
+    "averagerate": {
+        "type": "numeric",
+        "constraints": []
+    },
+    "endofdayrate": {
+        "type": "numeric",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

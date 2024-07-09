@@ -1,0 +1,54 @@
+{
+    "businessentityid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "totalpurchaseytd": {
+        "type": "money",
+        "constraints": []
+    },
+    "datefirstpurchase": {
+        "type": "date",
+        "constraints": []
+    },
+    "birthdate": {
+        "type": "date",
+        "constraints": []
+    },
+    "maritalstatus": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "yearlyincome": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "gender": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "totalchildren": {
+        "type": "integer",
+        "constraints": []
+    },
+    "numberchildrenathome": {
+        "type": "integer",
+        "constraints": []
+    },
+    "education": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "occupation": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "homeownerflag": {
+        "type": "boolean",
+        "constraints": []
+    },
+    "numbercarsowned": {
+        "type": "integer",
+        "constraints": []
+    }
+}

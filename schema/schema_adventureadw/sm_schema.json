@@ -1,0 +1,30 @@
+{
+    "id": {
+        "type": "integer",
+        "constraints": []
+    },
+    "shipmethodid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "name": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "shipbase": {
+        "type": "numeric",
+        "constraints": []
+    },
+    "shiprate": {
+        "type": "numeric",
+        "constraints": []
+    },
+    "rowguid": {
+        "type": "uuid",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

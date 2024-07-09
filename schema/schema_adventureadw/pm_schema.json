@@ -1,0 +1,30 @@
+{
+    "id": {
+        "type": "integer",
+        "constraints": []
+    },
+    "productmodelid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "name": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "catalogdescription": {
+        "type": "xml",
+        "constraints": []
+    },
+    "instructions": {
+        "type": "xml",
+        "constraints": []
+    },
+    "rowguid": {
+        "type": "uuid",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

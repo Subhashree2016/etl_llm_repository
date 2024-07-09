@@ -1,0 +1,28 @@
+{
+    "creditcardid": {
+        "type": "integer",
+        "constraints": [
+            "PRIMARY KEY"
+        ]
+    },
+    "cardtype": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "cardnumber": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "expmonth": {
+        "type": "smallint",
+        "constraints": []
+    },
+    "expyear": {
+        "type": "smallint",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

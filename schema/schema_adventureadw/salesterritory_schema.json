@@ -1,0 +1,52 @@
+{
+    "territoryid": {
+        "type": "integer",
+        "constraints": [
+            "PRIMARY KEY"
+        ]
+    },
+    "name": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "countryregioncode": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "group": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "salesytd": {
+        "type": "numeric",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "saleslastyear": {
+        "type": "numeric",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "costytd": {
+        "type": "numeric",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "costlastyear": {
+        "type": "numeric",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "rowguid": {
+        "type": "uuid",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

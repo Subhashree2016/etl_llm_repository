@@ -1,0 +1,24 @@
+{
+    "shiftid": {
+        "type": "integer",
+        "constraints": [
+            "PRIMARY KEY"
+        ]
+    },
+    "name": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "starttime": {
+        "type": "time without time zone",
+        "constraints": []
+    },
+    "endtime": {
+        "type": "time without time zone",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

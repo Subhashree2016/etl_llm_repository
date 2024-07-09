@@ -1,0 +1,48 @@
+{
+    "workorderid": {
+        "type": "integer",
+        "constraints": [
+            "PRIMARY KEY"
+        ]
+    },
+    "productid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "orderqty": {
+        "type": "integer",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "scrappedqty": {
+        "type": "smallint",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "startdate": {
+        "type": "timestamp without time zone",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "enddate": {
+        "type": "timestamp without time zone",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "duedate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    },
+    "scrapreasonid": {
+        "type": "smallint",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "id": {
+        "type": "integer",
+        "constraints": []
+    },
+    "businessentityid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "accountnumber": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "name": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "creditrating": {
+        "type": "smallint",
+        "constraints": []
+    },
+    "preferredvendorstatus": {
+        "type": "boolean",
+        "constraints": []
+    },
+    "activeflag": {
+        "type": "boolean",
+        "constraints": []
+    },
+    "purchasingwebserviceurl": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

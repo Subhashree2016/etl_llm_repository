@@ -1,0 +1,50 @@
+{
+    "id": {
+        "type": "integer",
+        "constraints": []
+    },
+    "productid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "businessentityid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "averageleadtime": {
+        "type": "integer",
+        "constraints": []
+    },
+    "standardprice": {
+        "type": "numeric",
+        "constraints": []
+    },
+    "lastreceiptcost": {
+        "type": "numeric",
+        "constraints": []
+    },
+    "lastreceiptdate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    },
+    "minorderqty": {
+        "type": "integer",
+        "constraints": []
+    },
+    "maxorderqty": {
+        "type": "integer",
+        "constraints": []
+    },
+    "onorderqty": {
+        "type": "integer",
+        "constraints": []
+    },
+    "unitmeasurecode": {
+        "type": "character",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "jobcandidateid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "Edu.Level": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "Edu.StartDate": {
+        "type": "date",
+        "constraints": []
+    },
+    "Edu.EndDate": {
+        "type": "date",
+        "constraints": []
+    },
+    "Edu.Degree": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "Edu.Major": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "Edu.Minor": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "Edu.GPA": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "Edu.GPAScale": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "Edu.School": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "Edu.Loc.CountryRegion": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "Edu.Loc.State": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "Edu.Loc.City": {
+        "type": "character varying",
+        "constraints": []
+    }
+}

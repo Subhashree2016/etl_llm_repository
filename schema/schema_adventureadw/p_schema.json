@@ -1,0 +1,106 @@
+{
+    "id": {
+        "type": "integer",
+        "constraints": []
+    },
+    "productid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "name": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "productnumber": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "makeflag": {
+        "type": "boolean",
+        "constraints": []
+    },
+    "finishedgoodsflag": {
+        "type": "boolean",
+        "constraints": []
+    },
+    "color": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "safetystocklevel": {
+        "type": "smallint",
+        "constraints": []
+    },
+    "reorderpoint": {
+        "type": "smallint",
+        "constraints": []
+    },
+    "standardcost": {
+        "type": "numeric",
+        "constraints": []
+    },
+    "listprice": {
+        "type": "numeric",
+        "constraints": []
+    },
+    "size": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "sizeunitmeasurecode": {
+        "type": "character",
+        "constraints": []
+    },
+    "weightunitmeasurecode": {
+        "type": "character",
+        "constraints": []
+    },
+    "weight": {
+        "type": "numeric",
+        "constraints": []
+    },
+    "daystomanufacture": {
+        "type": "integer",
+        "constraints": []
+    },
+    "productline": {
+        "type": "character",
+        "constraints": []
+    },
+    "class": {
+        "type": "character",
+        "constraints": []
+    },
+    "style": {
+        "type": "character",
+        "constraints": []
+    },
+    "productsubcategoryid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "productmodelid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "sellstartdate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    },
+    "sellenddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    },
+    "discontinueddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    },
+    "rowguid": {
+        "type": "uuid",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

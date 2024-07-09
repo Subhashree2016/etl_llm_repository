@@ -1,0 +1,24 @@
+{
+    "businessentityid": {
+        "type": "integer",
+        "constraints": [
+            "PRIMARY KEY"
+        ]
+    },
+    "phonenumber": {
+        "type": "character varying",
+        "constraints": [
+            "PRIMARY KEY"
+        ]
+    },
+    "phonenumbertypeid": {
+        "type": "integer",
+        "constraints": [
+            "PRIMARY KEY"
+        ]
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

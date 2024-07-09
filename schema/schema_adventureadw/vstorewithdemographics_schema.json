@@ -1,0 +1,50 @@
+{
+    "businessentityid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "name": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "AnnualSales": {
+        "type": "money",
+        "constraints": []
+    },
+    "AnnualRevenue": {
+        "type": "money",
+        "constraints": []
+    },
+    "BankName": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "BusinessType": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "YearOpened": {
+        "type": "integer",
+        "constraints": []
+    },
+    "Specialty": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "SquareFeet": {
+        "type": "integer",
+        "constraints": []
+    },
+    "Brands": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "Internet": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "NumberEmployees": {
+        "type": "integer",
+        "constraints": []
+    }
+}

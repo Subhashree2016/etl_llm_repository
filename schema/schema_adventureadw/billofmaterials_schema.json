@@ -1,0 +1,52 @@
+{
+    "billofmaterialsid": {
+        "type": "integer",
+        "constraints": [
+            "PRIMARY KEY"
+        ]
+    },
+    "productassemblyid": {
+        "type": "integer",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "componentid": {
+        "type": "integer",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "startdate": {
+        "type": "timestamp without time zone",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "enddate": {
+        "type": "timestamp without time zone",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "unitmeasurecode": {
+        "type": "character",
+        "constraints": []
+    },
+    "bomlevel": {
+        "type": "smallint",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "perassemblyqty": {
+        "type": "numeric",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

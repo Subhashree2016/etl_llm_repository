@@ -1,0 +1,106 @@
+{
+    "id": {
+        "type": "integer",
+        "constraints": []
+    },
+    "salesorderid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "revisionnumber": {
+        "type": "smallint",
+        "constraints": []
+    },
+    "orderdate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    },
+    "duedate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    },
+    "shipdate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    },
+    "status": {
+        "type": "smallint",
+        "constraints": []
+    },
+    "onlineorderflag": {
+        "type": "boolean",
+        "constraints": []
+    },
+    "purchaseordernumber": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "accountnumber": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "customerid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "salespersonid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "territoryid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "billtoaddressid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "shiptoaddressid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "shipmethodid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "creditcardid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "creditcardapprovalcode": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "currencyrateid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "subtotal": {
+        "type": "numeric",
+        "constraints": []
+    },
+    "taxamt": {
+        "type": "numeric",
+        "constraints": []
+    },
+    "freight": {
+        "type": "numeric",
+        "constraints": []
+    },
+    "totaldue": {
+        "type": "numeric",
+        "constraints": []
+    },
+    "comment": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "rowguid": {
+        "type": "uuid",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

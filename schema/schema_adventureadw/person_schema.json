@@ -1,0 +1,60 @@
+{
+    "businessentityid": {
+        "type": "integer",
+        "constraints": [
+            "PRIMARY KEY"
+        ]
+    },
+    "persontype": {
+        "type": "character",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "namestyle": {
+        "type": "boolean",
+        "constraints": []
+    },
+    "title": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "firstname": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "middlename": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "lastname": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "suffix": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "emailpromotion": {
+        "type": "integer",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "additionalcontactinfo": {
+        "type": "xml",
+        "constraints": []
+    },
+    "demographics": {
+        "type": "xml",
+        "constraints": []
+    },
+    "rowguid": {
+        "type": "uuid",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

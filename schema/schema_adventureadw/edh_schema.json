@@ -1,0 +1,30 @@
+{
+    "id": {
+        "type": "integer",
+        "constraints": []
+    },
+    "businessentityid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "departmentid": {
+        "type": "smallint",
+        "constraints": []
+    },
+    "shiftid": {
+        "type": "smallint",
+        "constraints": []
+    },
+    "startdate": {
+        "type": "date",
+        "constraints": []
+    },
+    "enddate": {
+        "type": "date",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

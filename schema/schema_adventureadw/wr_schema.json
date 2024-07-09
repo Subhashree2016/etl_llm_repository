@@ -1,0 +1,54 @@
+{
+    "id": {
+        "type": "integer",
+        "constraints": []
+    },
+    "workorderid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "productid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "operationsequence": {
+        "type": "smallint",
+        "constraints": []
+    },
+    "locationid": {
+        "type": "smallint",
+        "constraints": []
+    },
+    "scheduledstartdate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    },
+    "scheduledenddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    },
+    "actualstartdate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    },
+    "actualenddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    },
+    "actualresourcehrs": {
+        "type": "numeric",
+        "constraints": []
+    },
+    "plannedcost": {
+        "type": "numeric",
+        "constraints": []
+    },
+    "actualcost": {
+        "type": "numeric",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

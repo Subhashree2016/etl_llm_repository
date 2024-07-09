@@ -1,0 +1,74 @@
+{
+    "businessentityid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "title": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "firstname": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "middlename": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "lastname": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "suffix": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "phonenumber": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "phonenumbertype": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "emailaddress": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "emailpromotion": {
+        "type": "integer",
+        "constraints": []
+    },
+    "addresstype": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "addressline1": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "addressline2": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "city": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "stateprovincename": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "postalcode": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "countryregionname": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "demographics": {
+        "type": "xml",
+        "constraints": []
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "id": {
+        "type": "integer",
+        "constraints": []
+    },
+    "purchaseorderid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "purchaseorderdetailid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "duedate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    },
+    "orderqty": {
+        "type": "smallint",
+        "constraints": []
+    },
+    "productid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "unitprice": {
+        "type": "numeric",
+        "constraints": []
+    },
+    "receivedqty": {
+        "type": "numeric",
+        "constraints": []
+    },
+    "rejectedqty": {
+        "type": "numeric",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

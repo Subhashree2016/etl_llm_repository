@@ -1,0 +1,42 @@
+{
+    "id": {
+        "type": "integer",
+        "constraints": []
+    },
+    "addressid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "addressline1": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "addressline2": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "city": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "stateprovinceid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "postalcode": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "spatiallocation": {
+        "type": "bytea",
+        "constraints": []
+    },
+    "rowguid": {
+        "type": "uuid",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

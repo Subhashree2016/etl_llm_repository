@@ -1,0 +1,30 @@
+{
+    "id": {
+        "type": "integer",
+        "constraints": []
+    },
+    "productphotoid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "thumbnailphoto": {
+        "type": "bytea",
+        "constraints": []
+    },
+    "thumbnailphotofilename": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "largephoto": {
+        "type": "bytea",
+        "constraints": []
+    },
+    "largephotofilename": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

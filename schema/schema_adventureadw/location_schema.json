@@ -1,0 +1,28 @@
+{
+    "locationid": {
+        "type": "integer",
+        "constraints": [
+            "PRIMARY KEY"
+        ]
+    },
+    "name": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "costrate": {
+        "type": "numeric",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "availability": {
+        "type": "numeric",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

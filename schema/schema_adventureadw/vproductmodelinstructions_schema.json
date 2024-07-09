@@ -1,0 +1,46 @@
+{
+    "productmodelid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "name": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "instructions": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "LocationID": {
+        "type": "integer",
+        "constraints": []
+    },
+    "SetupHours": {
+        "type": "numeric",
+        "constraints": []
+    },
+    "MachineHours": {
+        "type": "numeric",
+        "constraints": []
+    },
+    "LaborHours": {
+        "type": "numeric",
+        "constraints": []
+    },
+    "LotSize": {
+        "type": "integer",
+        "constraints": []
+    },
+    "Step": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "rowguid": {
+        "type": "uuid",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

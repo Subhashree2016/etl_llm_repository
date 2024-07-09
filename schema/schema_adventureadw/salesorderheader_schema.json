@@ -1,0 +1,118 @@
+{
+    "salesorderid": {
+        "type": "integer",
+        "constraints": [
+            "PRIMARY KEY"
+        ]
+    },
+    "revisionnumber": {
+        "type": "smallint",
+        "constraints": []
+    },
+    "orderdate": {
+        "type": "timestamp without time zone",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "duedate": {
+        "type": "timestamp without time zone",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "shipdate": {
+        "type": "timestamp without time zone",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "status": {
+        "type": "smallint",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "onlineorderflag": {
+        "type": "boolean",
+        "constraints": []
+    },
+    "purchaseordernumber": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "accountnumber": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "customerid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "salespersonid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "territoryid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "billtoaddressid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "shiptoaddressid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "shipmethodid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "creditcardid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "creditcardapprovalcode": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "currencyrateid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "subtotal": {
+        "type": "numeric",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "taxamt": {
+        "type": "numeric",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "freight": {
+        "type": "numeric",
+        "constraints": [
+            "CHECK"
+        ]
+    },
+    "totaldue": {
+        "type": "numeric",
+        "constraints": []
+    },
+    "comment": {
+        "type": "character varying",
+        "constraints": []
+    },
+    "rowguid": {
+        "type": "uuid",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}

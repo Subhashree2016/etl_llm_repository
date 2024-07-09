@@ -1,0 +1,20 @@
+{
+    "jobcandidateid": {
+        "type": "integer",
+        "constraints": [
+            "PRIMARY KEY"
+        ]
+    },
+    "businessentityid": {
+        "type": "integer",
+        "constraints": []
+    },
+    "resume": {
+        "type": "xml",
+        "constraints": []
+    },
+    "modifieddate": {
+        "type": "timestamp without time zone",
+        "constraints": []
+    }
+}
