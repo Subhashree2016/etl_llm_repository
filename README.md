@@ -41,6 +41,8 @@ etl-llm (root directory of the repository)
     └── Data Processing.ipynb (Retreives the schema from adventureworks database,data amd preprocesses the data to generate the training dataset)
     └── Bert_model_schema_training.ipynb (Bert base model trained on AdventureWorks schema)
     └── t5_small_model.ipynb (T5 small model trained on AdventureWorks schema)
+└── README.md
+└── requirements.txt
 ```
 
 
